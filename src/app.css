@@ -1,0 +1,11 @@
+#card-wrapper {
+    column-count: 3;
+    -webkit-column-count: 3;
+}
+
+#card-layout {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    break-inside: avoid;
+}
